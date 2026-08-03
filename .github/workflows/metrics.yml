@@ -14,7 +14,7 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate GitHub activity dashboard
+      - name: Refresh GitHub activity dashboard
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN || github.token }}
@@ -29,30 +29,5 @@ jobs:
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
           plugin_achievements: yes
           plugin_achievements_threshold: C
-          plugin_followup: yes
-          plugin_followup_sections: repositories, user
-
-  contribution-flow:
-    needs: metrics
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out profile repository
-        uses: actions/checkout@v4
-
-      - name: Generate contribution flow animation
-        uses: Platane/snk@v3
-        with:
-          github_user_name: 7amankrishna
-          outputs: |
-            github-contribution-grid-snake.svg?palette=github-dark&color_snake=#38bdf8&color_dots=#161b22,#1f2937,#334155,#475569,#38bdf8
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit refreshed contribution flow
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: github-contribution-grid-snake.svg
-          message: "chore: refresh contribution flow"
