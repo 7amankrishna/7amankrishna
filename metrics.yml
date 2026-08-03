@@ -1,0 +1,39 @@
+name: Refresh profile dashboard
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub activity dashboard
+        uses: lowlighter/metrics@latest
+        with:
+          # GitHub's built-in token creates the public dashboard on first push.
+          # Add METRICS_TOKEN to include aggregate private activity as well.
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
+          user: 7amankrishna
+          filename: github-metrics.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+          config_display: large
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_indepth: yes
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
