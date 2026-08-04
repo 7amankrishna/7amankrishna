@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="title">
+  <title id="title">DARAJNI production commerce platform</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#180d12"/><stop offset="1" stop-color="#3a171e"/></linearGradient>
+    <linearGradient id="gold"><stop stop-color="#f7d794"/><stop offset="1" stop-color="#d49a4a"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-opacity=".4"/></filter>
+  </defs>
+  <rect width="600" height="260" rx="24" fill="url(#bg)"/>
+  <circle cx="522" cy="34" r="130" fill="#a34055" opacity=".18"/>
+  <g transform="translate(38 31)" filter="url(#shadow)">
+    <rect width="345" height="198" rx="16" fill="#fffaf3"/>
+    <rect width="345" height="28" rx="16" fill="#f4e7d6"/>
+    <circle cx="15" cy="14" r="4" fill="#c66"/><circle cx="29" cy="14" r="4" fill="#db9"/><circle cx="43" cy="14" r="4" fill="#9b8"/>
+    <rect x="18" y="46" width="126" height="136" rx="10" fill="#e8d1b8"/>
+    <path d="M63 65C78 48 94 48 108 65L123 153H49Z" fill="#692536"/>
+    <path d="M72 67L85 91L98 67" fill="none" stroke="#f7d794" stroke-width="3"/>
+    <rect x="164" y="52" width="110" height="8" rx="4" fill="#7d293c"/>
+    <rect x="164" y="72" width="150" height="6" rx="3" fill="#d5bba0"/>
+    <rect x="164" y="86" width="132" height="6" rx="3" fill="#e3d3c2"/>
+    <rect x="164" y="118" width="70" height="25" rx="12" fill="#7d293c"/>
+    <rect x="164" y="158" width="150" height="8" rx="4" fill="#efe3d6"/>
+  </g>
+  <g transform="translate(414 75)">
+    <path d="M58 0L112 30V92L58 124L4 92V30Z" fill="#201117" stroke="url(#gold)" stroke-width="2"/>
+    <text x="58" y="55" fill="url(#gold)" font-family="Georgia,serif" font-size="20" font-weight="700" text-anchor="middle">DARAJNI</text>
+    <text x="58" y="77" fill="#f8e7ca" font-family="Inter,Arial,sans-serif" font-size="9" letter-spacing="2" text-anchor="middle">WEAR CONFIDENCE</text>
+  </g>
+  <text x="414" y="226" fill="#f7d794" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="700">COMMERCE · OPERATIONS · EXPERIENCE</text>
+</svg>

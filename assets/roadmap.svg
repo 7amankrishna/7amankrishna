@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-labelledby="title desc">
+  <title id="title">Current focus roadmap</title>
+  <desc id="desc">Five stages: Learning, Building, Deploying, Contributing, and Scaling.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#020617"/><stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="210" rx="24" fill="url(#bg)" stroke="#1e293b"/>
+  <path d="M120 105H1080" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+  <path d="M120 105H1080" stroke="url(#line)" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 12">
+    <animate attributeName="stroke-dashoffset" values="44;0" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(120 105)">
+      <circle r="34" fill="#0f172a" stroke="#22d3ee" stroke-width="2" filter="url(#glow)"/>
+      <text y="5" fill="#67e8f9" font-size="22">01</text>
+      <text y="-58" fill="#f8fafc" font-size="18" font-weight="700">Learning</text>
+      <text y="68" fill="#94a3b8" font-size="12">AI · systems</text>
+    </g>
+    <g transform="translate(360 105)">
+      <circle r="34" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+      <text y="5" fill="#7dd3fc" font-size="22">02</text>
+      <text y="-58" fill="#f8fafc" font-size="18" font-weight="700">Building</text>
+      <text y="68" fill="#94a3b8" font-size="12">products · UX</text>
+    </g>
+    <g transform="translate(600 105)">
+      <circle r="34" fill="#0f172a" stroke="#818cf8" stroke-width="2"/>
+      <text y="5" fill="#a5b4fc" font-size="22">03</text>
+      <text y="-58" fill="#f8fafc" font-size="18" font-weight="700">Deploying</text>
+      <text y="68" fill="#94a3b8" font-size="12">cloud · CI/CD</text>
+    </g>
+    <g transform="translate(840 105)">
+      <circle r="34" fill="#0f172a" stroke="#a78bfa" stroke-width="2"/>
+      <text y="5" fill="#c4b5fd" font-size="22">04</text>
+      <text y="-58" fill="#f8fafc" font-size="18" font-weight="700">Contributing</text>
+      <text y="68" fill="#94a3b8" font-size="12">code · community</text>
+    </g>
+    <g transform="translate(1080 105)">
+      <circle r="34" fill="#0f172a" stroke="#c084fc" stroke-width="2" filter="url(#glow)"/>
+      <text y="5" fill="#d8b4fe" font-size="22">05</text>
+      <text y="-58" fill="#f8fafc" font-size="18" font-weight="700">Scaling</text>
+      <text y="68" fill="#94a3b8" font-size="12">reliability · teams</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="title">
+  <title id="title">Encrypted backup and disaster recovery system</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#172554"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="600" height="260" rx="24" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#38bdf8"><path d="M0 52H600M0 104H600M0 156H600M0 208H600"/><path d="M75 0V260M150 0V260M225 0V260M300 0V260M375 0V260M450 0V260M525 0V260"/></g>
+  <g transform="translate(55 49)">
+    <ellipse cx="90" cy="22" rx="78" ry="22" fill="#1e3a8a" stroke="#38bdf8"/>
+    <path d="M12 22V121C12 133 47 143 90 143S168 133 168 121V22" fill="#0f172a" stroke="#38bdf8"/>
+    <path d="M12 68C12 80 47 90 90 90S168 80 168 68M12 112C12 124 47 134 90 134S168 124 168 112" fill="none" stroke="#38bdf8" opacity=".8"/>
+    <circle cx="142" cy="62" r="4" fill="#34d399"/><circle cx="142" cy="106" r="4" fill="#34d399"/>
+  </g>
+  <path d="M228 130H335" stroke="url(#accent)" stroke-width="4" stroke-dasharray="10 8">
+    <animate attributeName="stroke-dashoffset" values="36;0" dur="1.8s" repeatCount="indefinite"/>
+  </path>
+  <path d="M327 117L343 130L327 143" fill="none" stroke="#818cf8" stroke-width="4"/>
+  <g transform="translate(362 48)" filter="url(#glow)">
+    <path d="M84 0L154 27V84C154 126 126 153 84 171C42 153 14 126 14 84V27Z" fill="#0f172a" stroke="url(#accent)" stroke-width="3"/>
+    <rect x="53" y="70" width="62" height="55" rx="9" fill="#111827" stroke="#67e8f9"/>
+    <path d="M65 70V53C65 28 103 28 103 53V70" fill="none" stroke="#67e8f9" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="84" cy="94" r="7" fill="#a78bfa"/>
+    <path d="M84 101V113" stroke="#a78bfa" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="300" y="230" fill="#cbd5e1" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" text-anchor="middle">ENCRYPT · VERIFY · RETAIN · RESTORE</text>
+</svg>

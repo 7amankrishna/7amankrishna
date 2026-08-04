@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="180" viewBox="0 0 800 180" role="img" aria-labelledby="title desc">
+  <title id="title">3D contribution calendar is initializing</title>
+  <desc id="desc">Run the Refresh profile assets workflow to generate the live 3D calendar.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0d1117"/><stop offset="1" stop-color="#17113b"/></linearGradient>
+    <linearGradient id="rainbow"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="798" height="178" rx="18" fill="url(#bg)" stroke="#30363d"/>
+  <g transform="translate(48 42)" fill="#21262d">
+    <rect width="22" height="22" rx="3"/><rect x="30" width="22" height="22" rx="3"/><rect x="60" width="22" height="22" rx="3"/>
+    <rect y="30" width="22" height="22" rx="3"/><rect x="30" y="30" width="22" height="22" rx="3" fill="#22d3ee"/><rect x="60" y="30" width="22" height="22" rx="3" fill="#818cf8"/>
+    <rect y="60" width="22" height="22" rx="3"/><rect x="30" y="60" width="22" height="22" rx="3" fill="#8b5cf6"/><rect x="60" y="60" width="22" height="22" rx="3" fill="#c084fc"/>
+  </g>
+  <text x="170" y="78" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="700">3D contribution calendar initializing</text>
+  <text x="170" y="111" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">The scheduled workflow will replace this fallback automatically.</text>
+  <path d="M170 132H700" stroke="url(#rainbow)" stroke-width="3" stroke-linecap="round"/>
+</svg>

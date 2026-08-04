@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Technology orbit</title>
+  <desc id="desc">Product engineering at the center, surrounded by TypeScript, Next.js, React, Node.js, PostgreSQL, Supabase, Docker, and AI.</desc>
+  <defs>
+    <radialGradient id="bg"><stop stop-color="#172554"/><stop offset=".55" stop-color="#0f172a"/><stop offset="1" stop-color="#020617"/></radialGradient>
+    <linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="900" height="360" rx="24" fill="url(#bg)" stroke="#1e293b"/>
+  <ellipse cx="450" cy="180" rx="315" ry="126" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="5 9"/>
+  <ellipse cx="450" cy="180" rx="222" ry="88" fill="none" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 8"/>
+  <g fill="none" stroke="url(#accent)" stroke-opacity=".35">
+    <path d="M450 180L135 180M450 180L227 91M450 180L450 54M450 180L673 91M450 180L765 180M450 180L673 269M450 180L450 306M450 180L227 269"/>
+  </g>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <circle cx="450" cy="180" r="70" fill="#0f172a" stroke="url(#accent)" stroke-width="3" filter="url(#glow)"/>
+    <text x="450" y="174" fill="#f8fafc" font-size="19" font-weight="750">PRODUCT</text>
+    <text x="450" y="199" fill="#67e8f9" font-size="16" font-weight="700">ENGINEERING</text>
+
+    <g fill="#111827" stroke-width="2">
+      <circle cx="135" cy="180" r="45" stroke="#3178c6"/><circle cx="227" cy="91" r="45" stroke="#f8fafc"/>
+      <circle cx="450" cy="54" r="45" stroke="#61dafb"/><circle cx="673" cy="91" r="45" stroke="#68a063"/>
+      <circle cx="765" cy="180" r="45" stroke="#4169e1"/><circle cx="673" cy="269" r="45" stroke="#3ecf8e"/>
+      <circle cx="450" cy="306" r="45" stroke="#2496ed"/><circle cx="227" cy="269" r="45" stroke="#a78bfa"/>
+    </g>
+    <g fill="#e2e8f0" font-size="13" font-weight="700">
+      <text x="135" y="184">TypeScript</text><text x="227" y="95">Next.js</text>
+      <text x="450" y="58">React</text><text x="673" y="95">Node.js</text>
+      <text x="765" y="184">PostgreSQL</text><text x="673" y="273">Supabase</text>
+      <text x="450" y="310">Docker</text><text x="227" y="273">AI / ML</text>
+    </g>
+  </g>
+  <circle r="4" fill="#22d3ee">
+    <animateMotion dur="8s" repeatCount="indefinite" path="M450 54C624 54 765 110 765 180S624 306 450 306S135 250 135 180S276 54 450 54Z"/>
+  </circle>
+</svg>

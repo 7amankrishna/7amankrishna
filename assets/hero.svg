@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Aman Krishna — Full-Stack Software Engineer</title>
+  <desc id="desc">Dark premium banner with an AI network, a coding window, and animated accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset=".48" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#11103a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#22d3ee" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="15" stdDeviation="22" flood-color="#000" flood-opacity=".45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1060" cy="52" r="170" fill="url(#glow)" filter="url(#blur)">
+    <animate attributeName="opacity" values=".55;.95;.55" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="330" r="145" fill="#8b5cf6" opacity=".10" filter="url(#blur)"/>
+
+  <g opacity=".28" stroke="#334155">
+    <path d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200"/>
+    <path d="M100 0V360M200 0V360M300 0V360M400 0V360M500 0V360M600 0V360M700 0V360M800 0V360M900 0V360M1000 0V360M1100 0V360"/>
+  </g>
+
+  <g transform="translate(72 76)">
+    <rect width="590" height="214" rx="24" fill="#0f172a" fill-opacity=".72" stroke="#334155" filter="url(#shadow)"/>
+    <rect x="22" y="22" width="48" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="22" y="77" fill="#f8fafc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="48" font-weight="750">Aman Krishna</text>
+    <text x="22" y="113" fill="#67e8f9" font-family="JetBrains Mono,Consolas,monospace" font-size="18" font-weight="600">FULL-STACK SOFTWARE ENGINEER</text>
+    <text x="22" y="152" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Building reliable products where design, code,</text>
+    <text x="22" y="178" fill="#cbd5e1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">AI, and infrastructure meet.</text>
+    <circle cx="545" cy="42" r="6" fill="#22d3ee">
+      <animate attributeName="r" values="4;8;4" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".5;1;.5" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="502" y="48" fill="#94a3b8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11">ONLINE</text>
+  </g>
+
+  <g transform="translate(725 48)" filter="url(#shadow)">
+    <rect width="405" height="264" rx="22" fill="#020617" fill-opacity=".88" stroke="#334155"/>
+    <path d="M0 45H405" stroke="#334155"/>
+    <circle cx="24" cy="23" r="5" fill="#fb7185"/>
+    <circle cx="43" cy="23" r="5" fill="#fbbf24"/>
+    <circle cx="62" cy="23" r="5" fill="#34d399"/>
+    <text x="146" y="28" fill="#64748b" font-family="JetBrains Mono,Consolas,monospace" font-size="11">aman/product.ts</text>
+    <g font-family="JetBrains Mono,Consolas,monospace" font-size="14">
+      <text x="25" y="79" fill="#64748b">01</text><text x="58" y="79" fill="#c084fc">const</text><text x="106" y="79" fill="#e2e8f0"> builder = {</text>
+      <text x="25" y="108" fill="#64748b">02</text><text x="76" y="108" fill="#67e8f9">craft</text><text x="121" y="108" fill="#e2e8f0">: </text><text x="137" y="108" fill="#fbbf24">"products"</text><text x="219" y="108" fill="#e2e8f0">,</text>
+      <text x="25" y="137" fill="#64748b">03</text><text x="76" y="137" fill="#67e8f9">values</text><text x="129" y="137" fill="#e2e8f0">: [</text><text x="149" y="137" fill="#fbbf24">"clarity"</text><text x="221" y="137" fill="#e2e8f0">,</text>
+      <text x="25" y="166" fill="#64748b">04</text><text x="149" y="166" fill="#fbbf24">"reliability"</text><text x="253" y="166" fill="#e2e8f0">,</text>
+      <text x="25" y="195" fill="#64748b">05</text><text x="149" y="195" fill="#fbbf24">"curiosity"</text><text x="245" y="195" fill="#e2e8f0">],</text>
+      <text x="25" y="224" fill="#64748b">06</text><text x="76" y="224" fill="#67e8f9">status</text><text x="129" y="224" fill="#e2e8f0">: </text><text x="145" y="224" fill="#34d399">"shipping"</text>
+      <text x="25" y="250" fill="#64748b">07</text><text x="58" y="250" fill="#e2e8f0">};</text>
+    </g>
+    <rect x="259" y="213" width="2" height="17" fill="#67e8f9">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M693 78C730 47 766 32 807 28" stroke="#22d3ee" stroke-opacity=".5"/>
+    <path d="M677 305C726 336 781 342 838 324" stroke="#a78bfa" stroke-opacity=".45"/>
+    <circle cx="693" cy="78" r="5" fill="#22d3ee"/>
+    <circle cx="677" cy="305" r="5" fill="#a78bfa"/>
+  </g>
+
+  <path d="M0 325C165 290 285 350 450 326C637 299 737 353 908 326C1037 306 1122 311 1200 325V360H0Z" fill="#020617" opacity=".68"/>
+  <path d="M0 337C180 310 280 358 458 338C633 318 755 359 928 337C1045 322 1120 326 1200 338" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".75"/>
+</svg>
