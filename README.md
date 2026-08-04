@@ -170,7 +170,24 @@
         <a href="https://github.com/7amankrishna/7amankrishna"><img src="https://img.shields.io/badge/GITHUB-Code-181717?style=for-the-badge&logo=github" alt="View profile README source code" /></a>
       </p>
     </td>
-    <td width="50%" valign="middle" align="center">
+    <td width="50%" valign="top">
+      <img src="./assets/project-library.svg" width="100%" alt="New Talent Digital Library management platform project thumbnail" />
+      <h3>New Talent Digital Library</h3>
+      <p>A responsive library management platform with public seat availability, student and administrator dashboards, authentication, Supabase data workflows, web push notifications, and installable PWA support.</p>
+      <p>
+        <img src="https://img.shields.io/badge/STATUS-LIVE-10B981?style=flat-square" alt="Status: Live" />
+        <img src="https://img.shields.io/github/stars/7amankrishna/Library_Management_System?style=flat-square&logo=github&color=F59E0B" alt="Digital Library GitHub stars" />
+        <img src="https://img.shields.io/github/last-commit/7amankrishna/Library_Management_System?style=flat-square&color=06B6D4" alt="Digital Library last updated" />
+      </p>
+      <p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>PostgreSQL</code> <code>PWA</code></p>
+      <p>
+        <a href="https://newtalentlibrary.vercel.app/"><img src="https://img.shields.io/badge/LIVE_DEMO-Open-06B6D4?style=for-the-badge&logo=vercel&logoColor=white" alt="Open New Talent Digital Library live demo" /></a>
+        <a href="https://github.com/7amankrishna/Library_Management_System"><img src="https://img.shields.io/badge/GITHUB-Code-181717?style=for-the-badge&logo=github" alt="View New Talent Digital Library source code" /></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="middle" align="center">
       <h3>More work, experiments & open source</h3>
       <p>I document what I build, share reusable ideas, and keep active work visible.</p>
       <a href="https://github.com/7amankrishna?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_ALL_REPOSITORIES-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories by Aman Krishna" /></a>
@@ -196,6 +213,13 @@
 - **Scaling:** Performance, security, reliability, and maintainable team practices.
 
 </details>
+
+<!-- ANIMATED DEVELOPER LOOP: SVG is lighter and more accessible than a hosted GIF. -->
+## Developer Loop
+
+<div align="center">
+  <img src="./assets/developer-loop.svg" width="100%" alt="Animated coding workflow moving from plan to code, test, ship, observe, and improve" />
+</div>
 
 <!-- GITHUB STATS -->
 ## GitHub Stats
@@ -292,6 +316,21 @@ I value contributions that make a project easier to understand, safer to operate
   <img src="https://img.shields.io/badge/Milestone-Secure_Commerce-8B5CF6?style=flat-square" alt="Milestone: Secure Commerce" />
   <img src="https://img.shields.io/badge/Practice-Disaster_Recovery-10B981?style=flat-square" alt="Practice: Disaster Recovery" />
   <img src="https://img.shields.io/badge/Mindset-Always_Learning-F59E0B?style=flat-square" alt="Mindset: Always Learning" />
+</div>
+
+### Credentials & Recognition
+
+<table>
+  <tr>
+    <td width="25%" valign="top"><b>🏁 Hackathons & Build Sprints</b><br /><br />Rapid prototyping, API integration, collaborative problem-solving, and deployable product demos.</td>
+    <td width="25%" valign="top"><b>📜 Certifications & Learning</b><br /><br />Applied AI/ML, scalable web systems, cloud delivery, and security—supported by shipped work and public documentation.</td>
+    <td width="25%" valign="top"><b>🏆 Awards & Recognition</b><br /><br />Live GitHub trophies, contribution milestones, repository activity, and community signals are generated above.</td>
+    <td width="25%" valign="top"><b>🎖️ Badges & Milestones</b><br /><br />Production commerce, encrypted recovery, automated engineering workflows, and a deployed digital library.</td>
+  </tr>
+</table>
+
+<div align="center">
+  <a href="https://amankrishna.in"><img src="https://img.shields.io/badge/VERIFIED_CREDENTIALS-Portfolio-8B5CF6?style=for-the-badge&logo=credly&logoColor=white" alt="View verified credentials and recognition on Aman Krishna's portfolio" /></a>
 </div>
 
 <!-- PROGRAMMING QUOTE -->

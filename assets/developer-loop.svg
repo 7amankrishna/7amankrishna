@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+  <title id="title">Developer loop</title>
+  <desc id="desc">An animated workflow showing Plan, Code, Test, Ship, Observe, and Improve.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="230" rx="24" fill="url(#bg)" stroke="#1e293b"/>
+  <text x="45" y="44" fill="#67e8f9" font-family="JetBrains Mono,Consolas,monospace" font-size="14" font-weight="700">while (curious) { build(); learn(); improve(); }</text>
+  <path d="M100 126H1100" stroke="#334155" stroke-width="4" stroke-linecap="round"/>
+  <path d="M100 126H1100" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="12 14">
+    <animate attributeName="stroke-dashoffset" values="52;0" dur="2.8s" repeatCount="indefinite"/>
+  </path>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(100 126)"><circle r="31" fill="#0f172a" stroke="#22d3ee" stroke-width="2"/><text y="5" fill="#f8fafc" font-size="13" font-weight="700">PLAN</text><text y="60" fill="#94a3b8" font-size="11">intent</text></g>
+    <g transform="translate(300 126)"><circle r="31" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/><text y="5" fill="#f8fafc" font-size="13" font-weight="700">CODE</text><text y="60" fill="#94a3b8" font-size="11">craft</text></g>
+    <g transform="translate(500 126)"><circle r="31" fill="#0f172a" stroke="#818cf8" stroke-width="2"/><text y="5" fill="#f8fafc" font-size="13" font-weight="700">TEST</text><text y="60" fill="#94a3b8" font-size="11">trust</text></g>
+    <g transform="translate(700 126)"><circle r="31" fill="#0f172a" stroke="#a78bfa" stroke-width="2"/><text y="5" fill="#f8fafc" font-size="13" font-weight="700">SHIP</text><text y="60" fill="#94a3b8" font-size="11">value</text></g>
+    <g transform="translate(900 126)"><circle r="31" fill="#0f172a" stroke="#c084fc" stroke-width="2"/><text y="5" fill="#f8fafc" font-size="11" font-weight="700">OBSERVE</text><text y="60" fill="#94a3b8" font-size="11">signals</text></g>
+    <g transform="translate(1100 126)"><circle r="31" fill="#0f172a" stroke="#e879f9" stroke-width="2"/><text y="5" fill="#f8fafc" font-size="11" font-weight="700">IMPROVE</text><text y="60" fill="#94a3b8" font-size="11">repeat</text></g>
+  </g>
+  <circle r="6" fill="#f8fafc" filter="url(#glow)">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M100 126H1100"/>
+    <animate attributeName="fill" values="#22d3ee;#818cf8;#c084fc;#22d3ee" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>

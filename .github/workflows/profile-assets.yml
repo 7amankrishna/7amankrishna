@@ -48,7 +48,7 @@ jobs:
           plugin_notable: yes
           plugin_notable_from: organization
           plugin_repositories: yes
-          plugin_repositories_featured: 7amankrishna/darajni
+          plugin_repositories_featured: 7amankrishna/darajni, 7amankrishna/Library_Management_System
 
   snake:
     name: Contribution snake
@@ -67,7 +67,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v4
         with:
           build_dir: dist
-          branch: output
+          target_branch: output
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -96,4 +96,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile-3d-contrib
           git commit -m "chore: refresh 3D contribution calendar"
-          git push
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          echo "Unable to publish the 3D contribution calendar after 3 attempts."
+          exit 1

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" role="img" aria-labelledby="title desc">
+  <title id="title">New Talent Digital Library</title>
+  <desc id="desc">A dark digital library dashboard with books, seat availability, and student activity.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#020617"/><stop offset=".58" stop-color="#0f2840"/><stop offset="1" stop-color="#063b45"/>
+    </linearGradient>
+    <linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000" flood-opacity=".42"/></filter>
+  </defs>
+  <rect width="600" height="260" rx="24" fill="url(#bg)"/>
+  <circle cx="535" cy="33" r="135" fill="#22d3ee" opacity=".1"/>
+  <g transform="translate(34 31)" filter="url(#shadow)">
+    <rect width="374" height="198" rx="16" fill="#08121f" stroke="#28445a"/>
+    <rect width="374" height="32" rx="16" fill="#101d2c"/>
+    <circle cx="17" cy="16" r="4" fill="#fb7185"/><circle cx="31" cy="16" r="4" fill="#fbbf24"/><circle cx="45" cy="16" r="4" fill="#34d399"/>
+    <rect x="20" y="51" width="88" height="126" rx="11" fill="#0f2030" stroke="#26455b"/>
+    <circle cx="64" cy="83" r="20" fill="url(#accent)"/>
+    <path d="M40 132C44 112 84 112 88 132" fill="#164e63" stroke="#22d3ee"/>
+    <rect x="128" y="53" width="106" height="9" rx="4.5" fill="#67e8f9"/>
+    <rect x="128" y="73" width="208" height="6" rx="3" fill="#28445a"/>
+    <g transform="translate(128 98)">
+      <rect width="65" height="60" rx="9" fill="#0f2030" stroke="#26455b"/>
+      <rect x="75" width="65" height="60" rx="9" fill="#0f2030" stroke="#26455b"/>
+      <rect x="150" width="65" height="60" rx="9" fill="#0f2030" stroke="#26455b"/>
+      <text x="32" y="27" text-anchor="middle" fill="#67e8f9" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">24</text>
+      <text x="32" y="44" text-anchor="middle" fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="8">SEATS</text>
+      <text x="107" y="27" text-anchor="middle" fill="#a78bfa" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">18</text>
+      <text x="107" y="44" text-anchor="middle" fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="8">STUDENTS</text>
+      <text x="182" y="27" text-anchor="middle" fill="#34d399" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="700">06</text>
+      <text x="182" y="44" text-anchor="middle" fill="#94a3b8" font-family="Inter,Arial,sans-serif" font-size="8">AVAILABLE</text>
+    </g>
+  </g>
+  <g transform="translate(438 52)">
+    <path d="M7 24C36 10 63 10 91 24V145C63 131 36 131 7 145Z" fill="#0f172a" stroke="#22d3ee" stroke-width="2"/>
+    <path d="M91 24C119 10 146 10 175 24V145C146 131 119 131 91 145Z" fill="#0f172a" stroke="#34d399" stroke-width="2"/>
+    <path d="M91 24V145" stroke="#67e8f9" stroke-width="2"/>
+    <path d="M25 47C45 41 62 41 77 47M25 65C45 59 62 59 77 65M105 47C125 41 142 41 158 47M105 65C125 59 142 59 158 65" fill="none" stroke="#64748b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="492" y="226" fill="#a7f3d0" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" text-anchor="middle">LEARN · MANAGE · GROW</text>
+</svg>
